@@ -1,0 +1,29 @@
+[2022-11-18 19:23:41] local.ERROR: There are no commands defined in the "clear" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"clear\" namespace. at /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php:648)
+[stacktrace]
+#0 /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php(699): Symfony\\Component\\Console\\Application->findNamespace()
+#1 /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#2 /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#3 /home/paulo/projetos/laravelApi/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#4 /home/paulo/projetos/laravelApi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#5 /home/paulo/projetos/laravelApi/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#6 {main}
+"} 
+[2022-11-18 19:30:40] local.ERROR: Command "cache:config" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:table {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"cache:config\" is not defined.
+
+Did you mean one of these?
+    cache:clear
+    cache:forget
+    cache:table at /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php:718)
+[stacktrace]
+#0 /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/paulo/projetos/laravelApi/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/paulo/projetos/laravelApi/vendor/laravel/framework/src/Illuminate/Console/Application.php(94): Symfony\\Component\\Console\\Application->run()
+#3 /home/paulo/projetos/laravelApi/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run()
+#4 /home/paulo/projetos/laravelApi/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
